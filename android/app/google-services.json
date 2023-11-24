@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "850508629878",
+    "project_id": "nunyaexam-45962",
+    "storage_bucket": "nunyaexam-45962.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850508629878:android:4b8c614f4bb35fbf4f5c57",
+        "android_client_info": {
+          "package_name": "com.epahubb.nunyaexam"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYpyzDQp0ONLbn2LvFDrOmRXnIrq261ko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
