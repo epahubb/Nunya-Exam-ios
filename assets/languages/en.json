@@ -450,7 +450,7 @@
   "wonMathQuiz" : "Won Math Quiz",
   "alreadyLoggedIn" : "Already logged in other device",
 
-  "pleaseGiveCameraPermission" : "Please give camera permission",
+  "pleaseGiveCameraPermission" : "Please give camera permission. Camera will be used to take live picture to be used to set your profile picture",
   "askedCameraNotAvailable" : "Asked camera not available",
   "retake" : "Retake",
   "pleaseGivePickImagePermission" : "Please give permission to pick image"
