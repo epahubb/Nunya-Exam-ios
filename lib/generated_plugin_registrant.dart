@@ -8,7 +8,7 @@
 
 import 'package:assets_audio_player_web/web/assets_audio_player_web.dart';
 import 'package:audio_session/audio_session_web.dart';
-import 'package:camera_web/camera_web.dart';
+// import 'package:camera_web/camera_web.dart';
 import 'package:cloud_firestore_web/cloud_firestore_web.dart';
 // import 'package:connectivity_plus_web/connectivity_plus_web.dart';
 import 'package:file_picker/_internal/file_picker_web.dart';
@@ -30,7 +30,7 @@ import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 void registerPlugins(Registrar registrar) {
   AssetsAudioPlayerWebPlugin.registerWith(registrar);
   AudioSessionWeb.registerWith(registrar);
-  CameraPlugin.registerWith(registrar);
+  // CameraPlugin.registerWith(registrar);
   FirebaseFirestoreWeb.registerWith(registrar);
   // ConnectivityPlusPlugin.registerWith(registrar);
   FilePickerWeb.registerWith(registrar);

@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart' hide ModalBottomSheetRoute;
-import 'package:nunyaexam/ui/screens/CaptureImageScreen.dart';
+// import 'package:nunyaexam/ui/screens/CaptureImageScreen.dart';
 import 'package:nunyaexam/ui/screens/aboutAppScreen.dart';
 import 'package:nunyaexam/ui/screens/appSettingsScreen.dart';
 import 'package:nunyaexam/ui/screens/auth/otpScreen.dart';
@@ -130,9 +130,9 @@ class Routes {
         return QuizScreen.route(routeSettings);
       case wallet:
         return WalletScreen.route(routeSettings);
-      case captureImage:
-        return CupertinoPageRoute<String?>(
-            builder: (context) => CaptureImageScreen());
+      // case captureImage:
+      //   return CupertinoPageRoute<String?>(
+      //       builder: (context) => CaptureImageScreen());
       case coinStore:
         return CoinStoreScreen.route(routeSettings);
       case rewards:
