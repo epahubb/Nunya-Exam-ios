@@ -76,8 +76,6 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
-	<key>NSCameraUsageDescription</key>
-	<string>Camera will be used to take live picture to be used to set your profile picture</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Microphone access will be used forpicking images from the image library, and taking new pictures with the camera.</string>
 	<key>NSPhotoLibraryUsageDescription</key>

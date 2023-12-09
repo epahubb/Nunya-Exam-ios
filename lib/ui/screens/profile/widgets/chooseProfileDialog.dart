@@ -102,23 +102,23 @@ class _ChooseProfileDialog extends State<ChooseProfileDialog> {
                           _getFromGallery(context);
                           Navigator.of(context).pop();
                         }),
-                    TextButton.icon(
-                      icon: Icon(
-                        Icons.photo_camera,
-                        color: Theme.of(context).primaryColor,
-                      ),
-                      label: Text(
-                        AppLocalization.of(context)!
-                            .getTranslatedValues("cameraLbl")!,
-                        style: TextStyle(
-                            color: Theme.of(context).colorScheme.secondary,
-                            fontWeight: FontWeight.bold),
-                      ),
-                      onPressed: () {
-                        Navigator.of(context).pop();
-                        _getFromCamera(context);
-                      },
-                    )
+                    // TextButton.icon(
+                    //   icon: Icon(
+                    //     Icons.photo_camera,
+                    //     color: Theme.of(context).primaryColor,
+                    //   ),
+                    //   label: Text(
+                    //     AppLocalization.of(context)!
+                    //         .getTranslatedValues("cameraLbl")!,
+                    //     style: TextStyle(
+                    //         color: Theme.of(context).colorScheme.secondary,
+                    //         fontWeight: FontWeight.bold),
+                    //   ),
+                    //   onPressed: () {
+                    //     Navigator.of(context).pop();
+                    //     _getFromCamera(context);
+                    //   },
+                    // )
                   ]),
             )));
   }
