@@ -50,7 +50,6 @@ dependencies:
   intl_phone_field: ^3.1.0
   file_picker: ^5.2.10
   permission_handler: ^11.0.1
-  camera:
   image:
   just_audio: ^0.9.12
   launch_review: ^3.0.1
